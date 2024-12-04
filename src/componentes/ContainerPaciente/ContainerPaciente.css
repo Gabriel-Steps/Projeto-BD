@@ -1,0 +1,62 @@
+.containerPacienteLayout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #3e3efd52;
+}
+
+.containerPacienteLayout > div{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.containerConsultasPaciente{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.containerConsultasPaciente h1{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+.containerConsultasPaciente table{
+    width: 100%;
+    table-layout:auto;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.containerConsultasPaciente table td{
+    border-left: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+}
+
+.containerProntuarioPaciente h1{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+.divProntuarios{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.divProntuarios h1{
+    font-size: 25px;
+}

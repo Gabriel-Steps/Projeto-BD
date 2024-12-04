@@ -1,0 +1,59 @@
+.NavBarContainer{
+    width: 100%;
+    height: 10vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.NavBarContainer button{
+    height: 100%;
+    background-color: transparent;
+    width: 20%;
+    font-size: 30px;
+    color: #FFFFFF;
+    border: none;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    transition: 1s;
+}
+
+.NavBarContainer button[categoria="Paciente"]:hover, button[categoria="Paciente"]:focus{
+    background-color: #3e3efd;
+    border: none;
+    border-top: 5px solid #7096ff48;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 10px #7096ff;
+    transition: 1s;
+    font-size: 35px;
+    font-weight: 450;
+    cursor: pointer;
+}
+.NavBarContainer button[categoria="Medico"]:hover, button[categoria="Medico"]:focus{
+    background-color: #44ff44;
+    border: none;
+    border-top: 5px solid #01db016c;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 10px #44ff44;
+    transition: 1s;
+    font-size: 35px;
+    font-weight: 450;
+    cursor: pointer;
+}
+.NavBarContainer button[categoria="Secretario"]:hover, button[categoria="Secretario"]:focus{
+    background-color: #ff3434;
+    border: none;
+    border-top: 5px solid #d300006e;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 10px #ff3434;
+    transition: 1s;
+    font-size: 35px;
+    font-weight: 450;
+    cursor: pointer;
+}

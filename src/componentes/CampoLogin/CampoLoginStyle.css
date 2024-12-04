@@ -1,0 +1,133 @@
+.ContainerLogin{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ContainerCampos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContainerImagem{
+    width: 50%;
+    height: 100%;
+}
+
+.ContainerImagem[categoriaImagem="Paciente"]{
+    background-image: url("../../images/imagem_paciente.png");
+    background-size: cover;
+    overflow: hidden;
+}
+.ContainerImagem[categoriaImagem="Medico"]{
+    background-image: url("../../images/imagem_medico.png");
+    background-size: cover;
+    overflow: hidden;
+}
+.ContainerImagem[categoriaImagem="Secretario"]{
+    background-image: url("../../images/imagem_secretario.png");
+    background-size: cover;
+    overflow: hidden;
+}
+.ContainerCampos hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.ContainerCampos .Acesso{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    transition: 1s;
+}
+
+.ContainerLogin h1{
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+hr{
+    background-color: #000000;
+    height: 1px;
+    border: none;
+}
+
+.ContainerCampos .Acesso:hover{
+    font-size: 25px;
+    font-weight: 650;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.ContainerCampos .Acesso[categoriaBotao="Paciente"]{
+    color: #3e3efd;
+    border: 1px solid #3e3efd;
+    transition: 1s;
+}
+.ContainerCampos .Acesso[categoriaBotao="Medico"]{
+    color: #44ff44;
+    border: 1px solid #44ff44;
+    transition: 1s;
+}
+.ContainerCampos .Acesso[categoriaBotao="Secretario"]{
+    color: #ff3434;
+    border: 1px solid #ff3434;
+    transition: 1s;
+}
+h1[categoriaTitulo=""]{
+    display: none;
+    background-color: transparent;
+    width: 100%;
+}
+h1[categoriaTitulo="Paciente"]{
+    background-color: #3e3efd;
+    width: 13%;
+    transition: 1s;
+}
+h1[categoriaTitulo="Medico"]{
+    background-color: #44ff44;
+    width: 13%;
+    transition: 1s;
+}
+h1[categoriaTitulo="Secretario"]{
+    background-color: #ff3434;
+    width: 13%;
+    transition: 1s;
+}
+.trocarTipoAcesso{
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #0000FF;
+    letter-spacing: 0.1rem;
+    font-weight: 550;
+    border: none;
+}
+
+.trocarTipoAcesso:hover{
+    cursor: pointer;
+}
+
+.camposForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

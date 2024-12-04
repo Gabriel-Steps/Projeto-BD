@@ -1,0 +1,14 @@
+.cardEpecialidade{
+    width: 20%;
+    border: 2px solid #6d6dff;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.cardEpecialidade hr{
+    margin: 15px;
+}
+.cardEpecialidade h2{
+    color: #6d6dff;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,64 @@
+.containerPaginaMedico{
+    width: 100%;
+    height: 100vh;
+    background-color: #44ff443b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.containerConsultasMedico{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.containerConsultasMedico h1{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+.containerConsultasMedico table{
+    width: 100%;
+    table-layout:auto;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.containerConsultasMedico table td{
+    border-left: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+}
+
+.containerProntuarioPaciente h1{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+.divFormularioProntuario{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.divFormularioProntuario button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 450;
+    letter-spacing: 0.1rem;
+}
+
+.divFormularioProntuarioNula{
+    display: none;
+}

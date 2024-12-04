@@ -1,0 +1,36 @@
+.ContainerAcesso{
+    width: 100%;
+    height: 100vh;
+}
+
+.localAcesso{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerNav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.ContainerAcesso[categoriaContainer=""]{
+    background-color: #00000021;
+    transition: 1s;
+}
+.ContainerAcesso[categoriaContainer="Paciente"]{
+    background-color: #7096ff48;
+    transition: 1s;
+}
+.ContainerAcesso[categoriaContainer="Medico"]{
+    background-color: #44ff4452;
+    transition: 1s;
+}
+.ContainerAcesso[categoriaContainer="Secretario"]{
+    background-color: #ff34343a;
+    transition: 1s;
+}

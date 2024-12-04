@@ -1,0 +1,36 @@
+.botao{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    letter-spacing: 0.1rem;
+}
+
+.botao[estiloPersonalizado="primary"]{
+    background-color: #FFFFFF;
+    color: #4242f3;
+    border: 1px solid #f3f3f3;
+    font-weight: 550;
+    transition: 1s;
+}
+.botao[estiloPersonalizado="secondary"]{
+    background-color: #010196;
+    color: #FFFFFF;
+    border: 1px solid #0000FF;
+    padding: 10px 45px;
+    font-weight: 400;
+    transition: 1s;
+}
+
+.botao[estiloPersonalizado="primary"]:hover{
+    box-shadow: 2px 2px 10px #FFFFFF;
+    transition: 1s;
+    font-size: 22px;
+    cursor: pointer;
+}
+.botao[estiloPersonalizado="secondary"]:hover{
+    box-shadow: 2px 2px 10px #010196;
+    background-color: #0000FF;
+    font-size: 22px;
+    transition: 1s;
+    cursor: pointer;
+}
